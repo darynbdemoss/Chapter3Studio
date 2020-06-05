@@ -7,7 +7,7 @@ namespace Chapter3Studio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the text you wnat to analyze: ");
+            Console.WriteLine("Please enter the text you want to analyze: ");
 
             string text = Console.ReadLine();
 
@@ -17,7 +17,7 @@ namespace Chapter3Studio
             {
                 if (charCount.ContainsKey(character))
                 {
-                    charCount(character) += 1;
+                    charCount[character] += 1;
                 }
                 else
                 {
